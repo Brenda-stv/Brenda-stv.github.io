@@ -19,23 +19,23 @@
     <div class="hero-text">
       <h1>Brenda Kong</h1>
       <a class="btn btn-outline-light" href="#" role="button" target="_blank" rel="noopener noreferrer">Resume</a>
-      <a class="btn btn-outline-light" href="https://github.com/Brenda-stv" role="button" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a class="btn btn-outline-light" href="www.linkedin.com/in/brenda-kong-998bb0b2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+      <a class="btn btn-outline-light" href="www.linkedin.com/in/brenda-kong-998bb0b2" role="button" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="btn btn-outline-light" href="https://github.com/Brenda-stv" role="button" target="_blank" rel="noopener noreferrer">Github</a>
     </div>
   </div>
 
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="#about-me">About Me</a>
           <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </div>
       </div>
     </div>
@@ -57,17 +57,36 @@
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-controls="collapseOne">
               Building Black Youth Foundation
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <strong>Overview</strong> 
+              <p>Building Black Youth Foundation is a non-profit organization based in Canada and for my senior capstone at ASU, I collaborated with four others to create an educational game given the sponsor’s requests. This educational game would contain the basic subjects taught in school such as math, reading, music, science, and art, as well as a 3D world for students to explore. However, this game was for more than just basic education concepts, the sponsor also requested that we include history relating to the different countries and islands in Africa and the Caribbean. Me and my team worked closely with the sponsor in order to solidfy what requirements they desired. After much discussion, we decided that we would create the entirety of the project in Unity using C#. </p>
+              
+              <strong>The Game</strong>
+              <p>The game itself is geared towards an age group starting from 2 years old, up to 12 years old. To compensate for the large range, the game contains 2 tiers. Tier 1 is for children from 2 years old to 6 years old while Tier 2 is for children from 6 years old to 12 years old. The first step was to create a user signup function so that the child could keep their progress when playing the game. By using LootLocker, a login system was created. This would store the user’s email, desired password, and tier into a database that could be retrieved later for logging in. </p>
+              <p>The game contains a mix of 2D and 3D elements, the main 3D component coming in the form of an open world for the children to explore. This open world is a fantasy land that is made up of 5 regions, each based on a specific region. These regions are the safari, Sahara Desert, rainforest jungle, and tropical Caribbean forests; and all surround a main city. To create this world, I used Unity’s existing assets to mockup designs for these regions and also began to experiment with colliders in order to simulate how a player character could interact with the world. </p>
+              <P>I also designed and created multiple UI elements used for the game. These designs were created with the idea of appealing to children in mind, resulting in colorful and eye-catching backgrounds and icons. However, they were still simplistic in nature so as not to overwhelm the user. </P>
+              <p>I also designed and created multiple UI elements used for the game. These designs were created with the idea of appealing to children in mind, resulting in colorful and eye-catching backgrounds and icons. However, they were still simplistic in nature so as not to overwhelm the user. An interactive map of all African countries and Caribbean islands was also created for the user, where hovering over one would show the name and change the color. </p>
+              
+              <strong>Honors Work</strong>
+              <p>For my honors project for my Barrett honors thesis, I worked independently on the games that the children would play. I kept in close contact with my sponsor to make sure my designs were to her requirements as well as my honors advisor who kept an eye on my progress and deadlines. </p>
+              <p>I created five different games for the following subjects, math, reading, music, science, and art. All games were created in Unity and written with C# scripts and all assets used for the games were drawn by me. These games heavily drew from the history of African and Caribbean countries and islands at the sponsor’s request. Most games were quiz-based, where users were shown a short, informative text and then given 10 questions to answer after. For example, the music game shows the user an excerpt of how Reggae came to be in Jamaica and were then asked to answer questions based on the text. However, the reading and math game does differ slightly, though still retaining the idea of correct and incorrect answers. </p>
+              <p>The reading game shows the user the pages belonging to an original short story written by me, and are then shown a sentence describing the picture on that page. One word will be missing and the user will be asked to pick the correct word to fill in the blank out of four options. </p>
+              <p>The math game is a simple higher or lower game, where users are shown to randomized numbers and must pick the larger of the two. After scoring 10 points, the user wins and picking an incorrect answer will deduct a point, though they will never go below zero. </p>
+              <p>All games show messages upon picking the correct or incorrect answer, and aim to uplift and motivate the user. Incorrect answers are also tracked and the corresponding question is shown to the user at the very end. </p>
+
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="skills">
+      <h2>Skills</h2>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
