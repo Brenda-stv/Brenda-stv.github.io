@@ -1,0 +1,9 @@
+{
+    "catppuccin.colorOverrides": {
+        "macchiato": 
+        {
+            "yellow": "#f99d81",
+            "green": "#9DCC72"
+        }
+    }
+}
