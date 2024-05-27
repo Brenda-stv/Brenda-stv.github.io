@@ -8,7 +8,7 @@ body, html
 .hero-image
 {
     /* linear gradient */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/hero-image.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/hero-image.png");
     height: 50%;
     
     background-position: center;
