@@ -60,8 +60,15 @@ body, html
 
 h1
 {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;  
+}
+
+h2
+{
     font-family: "Playball", cursive;
     font-weight: 400;
     font-style: normal;
-      
 }
